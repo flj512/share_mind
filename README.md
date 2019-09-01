@@ -6,7 +6,7 @@ build
 在线阅读软件，支持观点分享，适合自建数据库场景。程序分成服务端和客户端，客户端只支持android平台  
 
 1.客户端  
-直接采用android studio编译即可  
+直接采用android studio编译即可,源代码在根目录android下面   
 修改BookDefine.java文件如下地方更改服务器指向    
   static public final String SERVER_ADDR="192.168.0.105";  
   static public final String SERVER_HTTP_PATH="http://192.168.0.105/";  
@@ -48,6 +48,8 @@ db/booksharemind1223.sql是数据库文件，数据库名称为BookShareMind
 db/booksharemind1223.sql 包含两个默认账户，可以通过app修改文章注解。  
 可以自行更改密码  
 
-
+运行效果
+===
+![注解界面](https://github.com/flj512/share_mind/blob/master/1.jpg)
 
 
