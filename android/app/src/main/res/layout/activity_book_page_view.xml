@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:custom="http://schemas.android.com/apk/res-auto"
+android:orientation="vertical" android:layout_width="match_parent"
+android:layout_height="match_parent"
+    >
+<TextView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:id="@+id/book_page_view_title"
+    android:padding="10dp"
+    android:layout_marginBottom="5dp"
+    android:textSize="18sp"
+    android:textStyle="bold" />
+<com.sharedushu.sharemind.UI.BookPageView
+    android:id="@+id/book_pager_content_view"
+    android:layout_width="match_parent"
+    android:layout_height="0dp"
+    android:layout_weight="1"
+    android:textSize="16sp"
+    android:padding="10dp"
+    custom:rectBackground="#a0000000"
+    custom:rectForeground="#ffffffff"
+    custom:highLightStringLen="6"
+    custom:highLightRectMargin="10dp"
+    custom:highLightRectYOffset="20dp"
+    />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/book_page_view_read_progerss"
+        android:layout_gravity="center_vertical|right"
+        android:text="0.0%" />
+<RelativeLayout
+    android:id="@+id/book_page_view_download_waiting"
+    android:layout_width="match_parent"
+    android:layout_height="0dp"
+    android:layout_weight="1"
+    android:layout_gravity="center">
+    <ProgressBar
+        style="?android:attr/progressBarStyleLarge"
+        android:id="@+id/download_waiting_progress"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/downloading"
+        android:layout_below="@+id/download_waiting_progress"
+        android:textSize="12sp"
+        android:layout_centerHorizontal="true" />
+</RelativeLayout>
+
+</LinearLayout>

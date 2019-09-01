@@ -1,0 +1,8 @@
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="opinion_list_popup_width">100dp</dimen>
+    <dimen name="opinion_list_popup_height">200dp</dimen>
+    <dimen name="catalog_list_popup_width">100dp</dimen>
+</resources>

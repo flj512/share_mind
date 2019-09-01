@@ -1,0 +1,6 @@
+*.o
+*.d
+/.svn
+/build/test
+/build/book-share-mind
+/build/loader

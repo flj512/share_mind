@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <attr name="rectBackground" format="color"/>
+    <attr name="rectForeground" format="color"/>
+    <attr name="highLightStringLen" format="integer"/>
+    <attr name="highLightRectMargin" format="dimension"/>
+    <attr name="highLightRectYOffset" format="dimension"/>
+
+    <declare-styleable name="BookPageView">
+        <attr name="rectBackground"/>
+        <attr name="rectForeground" />
+        <attr name="highLightStringLen" />
+        <attr name="highLightRectMargin"/>
+        <attr name="highLightRectYOffset"/>
+    </declare-styleable>
+</resources>

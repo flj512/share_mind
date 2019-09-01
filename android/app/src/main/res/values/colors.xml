@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#00ffffff</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="greyBg">#f7f6f6</color>
+    <color name="opinion_list_bg">#bd000000</color>
+    <color name="catalog_list_bg">#ffffffff</color>
+    <color name="search_button_press">#af808080</color>
+    <color name="color_trans">#00000000</color>
+</resources>

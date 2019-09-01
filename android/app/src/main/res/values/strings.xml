@@ -1,0 +1,48 @@
+<resources>
+    <string name="app_name">分享读书</string>
+    <string name="search_hit">输入书名</string>
+    <string name="search_start">搜索</string>
+    <string name="downloading">正在下载...</string>
+    <string name="searching">正在搜索...</string>
+    <string name="search_fail">搜索失败</string>
+    <string name="search_none">没有找到符合要求的书籍</string>
+    <string name="search_enter_key">需要输入关键字</string>
+    <string name="bookstore">书库</string>
+    <string name="network_fail">加载失败！</string>
+    <string name="search_tip">点击右上角搜索图标添加书籍</string>
+    <string name="publish_opinion">发表</string>
+    <string name="publish_success">发表成功</string>
+    <string name="publish_fail">发表失败</string>
+    <string name="publish_conten_empty">内容不能为空</string>
+    <string name="publish_tip">输入您对某个词或句子的见解，点击“发表”按钮提交（不超过200字）</string>
+    <string name="remove_title">提示</string>
+    <string name="remove_text">确实要删除《%s》？</string>
+    <string name="button_confirm">确定</string>
+    <string name="button_cancel">取消</string>
+    <string name="opinion_list_empty">此处没有任何注解，可以点击下方添加按钮发表您的见闻。</string>
+    <string name="opinion_load_fail">加载注解失败！</string>
+    <string name="catalog">目录</string>
+    <string name="error_auth">授权失败，是否需要重新输入账户密码？</string>
+    <string name="error_dup">存在相同的注解，您可以多加个空格再重新发表。</string>
+    <string name="error_time">时间戳错误，请检查本机时钟是否准确。</string>
+    <string name="error_sys">出错了！</string>
+    <string name="i_kown">已阅</string>
+    <string name="title_activity_login">登陆</string>
+    <string name="input_user_passwd_title">需要授权</string>
+    <string name="input_user_passwd">暂时只有授权用户才能分享注解，请与开发者联系以获取授权。如果已获得授权，请登录！</string>
+    <string name="input_user_passwd_confrim">授权</string>
+    <string name="input_user_passwd_cancel">取消</string>
+    <string name="permition_title">权限不足</string>
+    <string name="sd_permition_deny">下载和阅读书籍需要SD卡读写权限!</string>
+
+    <!-- Strings related to login -->
+    <string name="prompt_email">账户</string>
+    <string name="prompt_password">密码</string>
+    <string name="action_sign_in">确定</string>
+    <string name="action_sign_in_short">确定</string>
+    <string name="error_invalid_email">账户格式不正确</string>
+    <string name="error_invalid_password">密码太短</string>
+    <string name="error_incorrect_password">密码不正确</string>
+    <string name="error_field_required">需要输入账户</string>
+
+</resources>

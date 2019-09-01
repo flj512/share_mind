@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.sharedushu.sharemind">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+
+    <application
+        android:name=".Tools.ApplicationE"
+        android:allowBackup="true"
+        android:icon="@drawable/book_launch_icon"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.AppCompat.Light.NoActionBar">
+        <activity android:name=".UI.MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".UI.SearchActivity" />
+        <activity android:name=".UI.BookSrcollViewActivity">
+            <intent-filter>
+                <action android:name="com.mindshare_flj.booksharemind.showbook" />
+
+                <category android:name="com.mindshare_flj.booksharemind.scroll" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".UI.BookPageViewActivity">
+            <intent-filter>
+                <action android:name="com.mindshare_flj.booksharemind.showbook" />
+
+                <category android:name="com.mindshare_flj.booksharemind.page" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".UI.OpinionEditActivity">
+            <intent-filter>
+                <action android:name="com.mindshare_flj.booksharemind.editopinion" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".UI.LoginActivity"
+            android:label="@string/title_activity_login"></activity>
+    </application>
+
+</manifest>
